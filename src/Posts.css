@@ -1,0 +1,36 @@
+.posts_container{
+    border: 1px solid lightgray;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: gray;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.posts_header{
+    display: flex;
+}
+
+.posts_info{
+    margin-left: 15px;
+}
+
+.posts_name{
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.posts_des{
+    font-size: 0.8rem;
+}
+
+.posts_body > p{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.posts_options{
+    display: flex;
+}

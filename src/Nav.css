@@ -1,0 +1,36 @@
+.nav_container{
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+
+}
+.nav_left{
+    padding-left: 100px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:0.6;
+   /* background-color: wheat; */
+}
+
+.nav_left > img{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.search_box{
+    display: flex;
+}
+
+.search_box > input{
+    border: none;
+    outline-width: 0;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+}
