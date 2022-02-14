@@ -9,6 +9,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
+import { logout } from './features/userSlice';
 
 function Nav() {
     const dispatch = useDispatch()
@@ -35,7 +36,7 @@ function Nav() {
                 <NavContents Icon={BusinessCenterIcon} title="Jobs" />
                 <NavContents Icon={ChatIcon} title="Messaging" />
                 <NavContents Icon={NotificationsIcon} title="Notification " />
-                <NavContents avatar onClick = {logOutofApp} title="me"/>
+                <NavContents avatar={true} onClick = {logOutofApp} title="me"/>
 
             </div>
         </div>
